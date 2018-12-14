@@ -1,0 +1,37 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$config['functions'] = array(
+    'array_merge',
+    'array_map',
+    'array_keys',
+    'function_exists', 
+    'validation_errors', 
+    'var_dump', 
+    'die',
+    'ucwords', 
+    'str_replace',
+    'random_string',
+    'array_group_by_keys',
+    'session_id',
+    'prettify',
+    'uglify',
+    'count',
+    'strtolower',
+    'strtoupper',
+    'strtotime',
+    'rand',
+    'urlencode',
+    'uri_string',
+    'ends_with',
+    'starts_with',
+    'json_encode',
+    'json_decode',
+    'explode',
+    'implode',
+    'join',
+    'd',
+    'dd',
+    'base64_encode',
+);
+
+$config['functions_safe'] = array();

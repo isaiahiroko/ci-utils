@@ -1,0 +1,14 @@
+{
+    "name": "isaiahiroko/ci-utils",
+    "description": "A collection of common libraries for everyday CodeIgniter application development.",
+    "keywords": ["CodeIgniter", "Utility", "Utils"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaiah Iroko",
+            "email": "isaiahiroko@gmail.com"
+        }
+    ],
+    "require": {}
+}

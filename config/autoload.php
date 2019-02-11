@@ -39,7 +39,7 @@
 |
 */
 
-$autoload['packages'] = array(APPPATH.'third_party/DevelBar');
+$autoload['packages'] = array();
 
 
 /*
@@ -77,6 +77,7 @@ $autoload['libraries'] = array(
     'auth_service' => 'auth',
     'gate_service' => 'gate',
     'inflector_service' => 'inflector',
+    'json_file_service' => 'notif',
     'notif_service' => 'notif',
     'paystack_service' => 'paystack',
     'pdf_service' => 'pdf',
@@ -137,7 +138,7 @@ $autoload['helper'] = array(
 |
 */
 
-$autoload['config'] = array('');
+$autoload['config'] = array();
 
 
 /*
@@ -172,5 +173,4 @@ $autoload['language'] = array();
 
 $autoload['model'] = array(
     'my_model' => 'model',
-    'customers_model' => 'customers',
 );

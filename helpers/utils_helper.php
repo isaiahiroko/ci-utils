@@ -117,6 +117,15 @@ if(!function_exists('prettify'))
     }
 }
 
+if(!function_exists('uglify'))
+{
+    function uglify($input, $seperator = '_')
+    {
+        return str_replace(' ', $seperator, strtolower($input));
+    }
+
+}
+ 
 if(!function_exists('to_primary'))
 {
     function to_primary($entity, $id, $title)
@@ -204,17 +213,7 @@ if(!function_exists('is_array_equal'))
     }
 
 }
- 
 
-if(!function_exists('uglify'))
-{
-    function uglify($input, $seperator = '_')
-    {
-        return str_replace(' ', $seperator, strtolower($input));
-    }
-
-}
- 
 
 if(!function_exists('is_array_equal'))
 {
@@ -239,17 +238,6 @@ if(!function_exists('d'))
     function d($dump)
     {
         return var_dump($dump);
-    }
-
-}
-
-if(!function_exists('to_child_orders'))
-{
-    function to_child_orders($request_type, $parent_order_id)
-    {
-        return (strtolower($request_type) == 'parent') 
-            ? '<button type="button" class="btn btn-sm btn-light" data-toggle="modal" data-target="#ajax-modal" data-parent-order-id="'.$parent_order_id.'"><i class="fa fa-asterisk"></i</button>'
-            : NULL;
     }
 
 }
